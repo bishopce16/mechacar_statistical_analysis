@@ -11,7 +11,7 @@ An updated README.md that has the written summaries for Deliverables 1, 2, and 3
 
 ## Resource:
 
-Data Sources: MechaCar_mpg.csv, 
+Data Sources: MechaCar_mpg.csv, Suspension_Coil.csv.
 
 Tools: R, RStudio, Visual Studio Code, dplyr, ggplot2.
  

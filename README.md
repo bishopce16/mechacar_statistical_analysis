@@ -31,7 +31,7 @@ The linear regression was calculated using R in RStudio, the data source MechaCa
 
 The most significant variables in the dataset that provided a non-random amount of variance to the mpg values was Ground Clearance and Vehicle Length. The slope of the linear model cannot be zero, with a p-value of 5.35x10-11. Converting the coefficients from scientific notation, vehicle length: 6.267, vehicle weight: 0.001, spoiler angle: 0.069, ground clearance: 3.546, AWD: -3.411. All the variable’s slopes were shown to be non-zero with a few close to zero, this results in a non-zero slope and rejection of the null hypothesis (H0).
 
-![summary_stat_linear_regression](images/summary_stat_linear_regression.png)
+![summary_stat_linear_regression](images/summary_stat_linear_regression_.png)
 
 This model does predict the mpg of the MechaCar prototype with 71% accuracy as indicated by the r-squared value of 0.7149. However, there may be other variables not considered in the dataset contributing to the variation in the mpg. 
 
@@ -53,25 +53,25 @@ The overall variance is under 100 psi and does meet the specifications there is 
 
 **T-Test for all Lots**
 
-![t-test_all_lots](images/t-test_all_lots.png)
+![t-test_all_lots](images/t_test_all_lots.png)
 
 The mean is within the 95% confidence interval, the P-value is 0.6028, the alpha is 0.05. The T-Test results for all manufacturing lots shows it is not statistically significant from the normal distribution and normality can be assumed. 
 
 **T-Test for Lot 1**
 
-![t-test_lot1](images/t-test_lot1.png)
+![t-test_lot1](images/t_test_lot1.png)
 
 The mean is within the 95% confidence interval, the P-value is 1, the alpha is 0.05. The T-Test results for Lot 1 shows it is not statistically significant from the normal distribution and normality can be assumed. 
 
 **T-Test for Lot 2**
 
-![t-test_lot2](images/t-test_lot2.png)
+![t-test_lot2](images/t_test_lot2.png)
 
 The mean is within the 95% confidence interval, the P-value is 0.6072, the alpha is 0.05. The T-Test results for Lot 2 shows it is not statistically significant from the normal distribution and normality can be assumed. 
 
 **T-Test for Lot 3**
 
-![t-test_lot3](images/t-test_lot3.png)
+![t-test_lot3](images/t_test_lot3.png)
 
 The mean is within the 95% confidence interval, the P-value is 0.04168, the alpha is 0.05. The T-Test results for Lot 3 shows it is statistically significant from the normal distribution and normality cannot be assumed. 
 
